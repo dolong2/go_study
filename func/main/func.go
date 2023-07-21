@@ -17,6 +17,15 @@ func div(a int, b int) (int, int) {
 	return a / b, a % b
 }
 
+type test struct {
+	a int
+	b int
+}
+
+func (t test) sum() int {
+	return t.a + t.b
+}
+
 func main() {
 	a := 7
 	b := 3
@@ -24,4 +33,6 @@ func main() {
 	sub(&a, &b)
 	fmt.Println(a)
 	fmt.Println(div(a, b))
+	var t = test{a: 10, b: 20}
+	fmt.Println(t.sum())
 }
