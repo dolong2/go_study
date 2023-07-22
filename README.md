@@ -8,3 +8,4 @@
 7. [포인터](./pointer/pointer.md)
 8. [구조체](./struct/struct.md)
 9. [패키지](./package/package.md)
+10. [맵](./map/map.md)
