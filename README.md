@@ -9,3 +9,4 @@
 8. [구조체](./struct/struct.md)
 9. [패키지](./package/package.md)
 10. [맵](./map/map.md)
+11. [인터페이스](./interface/interface.md)
