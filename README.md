@@ -10,3 +10,4 @@
 9. [패키지](./package/package.md)
 10. [맵](./map/map.md)
 11. [인터페이스](./interface/interface.md)
+12. [클로저](./closure/closure.md)
