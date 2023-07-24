@@ -29,10 +29,14 @@ func (t test) sum() int {
 func main() {
 	a := 7
 	b := 3
+
 	fmt.Println(sum(a, b))
+
 	sub(&a, &b)
 	fmt.Println(a)
+
 	fmt.Println(div(a, b))
+
 	var t = test{a: 10, b: 20}
 	fmt.Println(t.sum())
 }
