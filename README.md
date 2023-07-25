@@ -11,3 +11,4 @@
 10. [맵](./map/map.md)
 11. [인터페이스](./interface/interface.md)
 12. [클로저](./closure/closure.md)
+13. [defer, panic](./deferAndpanic/deferAndPanic.md)
