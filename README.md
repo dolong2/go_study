@@ -12,4 +12,4 @@
 11. [인터페이스](./interface/interface.md)
 12. [클로저](./closure/closure.md)
 13. [defer, panic](./deferAndpanic/deferAndPanic.md)
-14. [Go 루틴]
+14. [Go 루틴](./go_routine/goRoutine.md)
