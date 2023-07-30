@@ -5,6 +5,17 @@ import (
 	"time"
 )
 
+func sendChan(ch chan<- string) {
+    ch <- "Data"
+    // x := <-ch // 에러발생
+}
+ 
+func receiveChan(ch <-chan string) {
+	// ch <- "Data" 에러발생
+    data := <-ch
+    fmt.Println(data)
+}
+
 func main() {
 	testChan := make(chan int)
 	go func() {
@@ -30,4 +41,8 @@ func main() {
 	ch := make(chan int, 1)
 	ch <- 101
 	fmt.Println(<-ch)
+
+	ch := make(chan string, 1)
+    sendChan(ch)
+    receiveChan(ch)
 }
