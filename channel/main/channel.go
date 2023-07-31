@@ -45,4 +45,13 @@ func main() {
 	ch2 := make(chan string, 1)
 	sendChan(ch2)
 	receiveChan(ch2)
+
+	ch3 := make(chan int, 2)
+	ch3 <- 1
+	ch3 <- 2
+	close(ch3) // 채널 닫기
+	// ch3 <- 3 채널이 닫혔는데 송신하면 오류
+	for i := range ch3 {
+		fmt.Println(i)
+	}
 }
