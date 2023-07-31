@@ -6,14 +6,14 @@ import (
 )
 
 func sendChan(ch chan<- string) {
-    ch <- "Data"
-    // x := <-ch // 에러발생
+	ch <- "Data"
+	// x := <-ch // 에러발생
 }
- 
+
 func receiveChan(ch <-chan string) {
 	// ch <- "Data" 에러발생
-    data := <-ch
-    fmt.Println(data)
+	data := <-ch
+	fmt.Println(data)
 }
 
 func main() {
@@ -28,7 +28,7 @@ func main() {
 	fmt.Println("test1")
 	// 채널에서 수신할 수 있을때까지 대기
 	// 즉 보낸후 go 루틴을 기다리진 않는다
-	fmt.Println(<- testChan)
+	fmt.Println(<-testChan)
 	fmt.Println("test2")
 	time.Sleep(time.Second * 2)
 
@@ -42,7 +42,7 @@ func main() {
 	ch <- 101
 	fmt.Println(<-ch)
 
-	ch := make(chan string, 1)
-    sendChan(ch)
-    receiveChan(ch)
+	ch2 := make(chan string, 1)
+	sendChan(ch2)
+	receiveChan(ch2)
 }
