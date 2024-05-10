@@ -37,3 +37,6 @@ go 함수는 func 키워드로 선언
       // 로직
    }
    ```
+
+### 예제 코드
+[func.go](./main/func.go)

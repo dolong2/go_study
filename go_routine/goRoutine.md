@@ -29,3 +29,6 @@ Go는 기본으로 하나의 cpu만 사용
 runtime.GOMAXPROCS(CPU수)
 ```
 로 병렬처리를 할 수 있다.
+
+### 예제 코드
+[goRoutine.go](./main/goRoutine.go)

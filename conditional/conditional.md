@@ -24,3 +24,6 @@ default:
     TODO
 }
 ```
+
+### 예제 코드
+[conditional.go](./main/conditional.go)

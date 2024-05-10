@@ -23,3 +23,6 @@ java의 Object와 같다라고 생각하면 됨
 interface type의 x와 타입 T에 대하여 x.(T)로 표현할때, 이는 x가 nil이 아니며,
 
 x는 T타입에 속한다는 점을 확인하는 것으로 이러한 표현을 "Type Assertion"이라 부름
+
+### 예제 코드
+[interface.go](./main/interface.go)

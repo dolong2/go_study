@@ -31,3 +31,6 @@
 * byte -> 8비트 자료형
 * rune -> 유니코드를 저장하는 자료형, int32와 크기는 동일
 * string -> 문자열을 저장하기위한 자료형
+
+### 예제 코드
+[variable.go](./main/variable.go)

@@ -23,3 +23,6 @@ func newDict() *구조체명 {
     return &변수명
 }
 ```
+
+### 예제 코드
+[struct.go](./main/struct.go)

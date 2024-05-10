@@ -71,3 +71,6 @@ select문은 case 채널들이 준비되지 않으면 계속 대기하고
 만약 복수 채널에 신호가 오면, Go 런타임이 랜덤하게 그 중 한 개를 선택한다.
 
 하지만, select문에 default 문이 있으면, case문 채널이 준비되지 않더라도 계속 대기하지 않고 바로 default문을 실행한다.
+
+### 예제 코드
+[channel.go](./main/channel.go)
